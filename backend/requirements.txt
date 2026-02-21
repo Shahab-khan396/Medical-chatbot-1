@@ -1,8 +1,25 @@
+# Web Framework
 fastapi
-uvicorn
+uvicorn[standard]
+
+# Environment Variables
 python-dotenv
+
+# LangChain
 langchain
-langchain-community  
-langchain-google-genai
+langchain-community
+langchain-core
 langchain-chroma
+langchain-huggingface
+
+# Embeddings (local)
+sentence-transformers
+
+# Vector Database
 chromadb
+
+# PDF Loading
+pypdf
+
+# LLM API (OpenRouter)
+openai
